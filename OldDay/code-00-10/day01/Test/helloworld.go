@@ -1,13 +1,11 @@
-// helloworld.go
 package main
 
 import (
-"fmt"
-"./myMath"
+	"fmt"
 )
 
-func main(){
-    fmt.Println("Hello World!")
-    fmt.Println(mathClass.Add(1,1))
-   // fmt.Println(mathClass.Sub(1,1))
+func main() {
+	fmt.Println("Hello World!")
+	fmt.Println(mathClass.Add(1, 1))
+	fmt.Println(mathClass.Sub(1, 1))
 }

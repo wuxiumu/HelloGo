@@ -2,6 +2,6 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.Printf("123");
+func main() {
+	fmt.Printf("匿名字段")
 }
